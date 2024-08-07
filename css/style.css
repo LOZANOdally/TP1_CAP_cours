@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    40deg,
+    rgb(196, 195, 235),
+    rgb(212, 247, 165));
+
+  font-family: "Nunito", sans-serif;
+}
+.image{
+  background-image: url(../img/runningimg.jpg);
+  background-position: bottom;
+  height: 250px;
+  background-repeat: no-repeat;
+ 
+}
+#entete {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#titre {
+  width: 200px;
+  height: 100px;
+  display: block;
+}
+h1 {
+  padding: 15px;
+  color: rgb(6, 12, 67);
+  font-size: 25px;
+}
+h3 {
+  color: rgb(6, 12, 67);
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+h2 {
+  color: rgb(6, 12, 67);
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 10px;
+  
+}
+#menu {
+
+  height: 100px;
+  width: 100%;
+  padding: 30px;
+  background: linear-gradient(45deg, rgb(167, 165, 225), rgb(162, 216, 91));
+}
+#menu a {
+  color: rgb(6, 12, 67);
+  height: 40px;
+  width: 60px;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+}
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#menu li {
+  margin: 0px 0px 20px 0px;
+  border-radius: 5%;
+  color: transparent;
+}
+#menu a:hover {
+  color: hsl(235, 91%, 65%);
+  font-size: 21px;
+  
+}
+
+#bloc li {
+  font-size: 15px;
+  margin: 20px 0px 0px 50px;
+  color: rgb(6, 12, 67);
+}
+p {
+  font-size: 13px;
+  margin: 10px 20px 0px 15px;
+  color: rgb(6, 12, 67);
+}
+#bloc h4 {
+  font-size: 15px;
+  margin: 40px 0px 0px 10px;
+  color: rgb(6, 12, 67);
+}
+#bloc a {
+  text-decoration: none;
+  color: rgb(24, 94, 233);
+  font-size: 13px;
+  margin-left: 10px;
+}
+#pied p {
+  font-size: 10px;
+  color: rgb(6, 12, 67);
+}
+#pied a {
+  text-decoration: none;
+  font-size: 10px;
+  color: rgb(24, 94, 233);
+  
+}
+#pied{
+  margin: 5px 0px 0px 10px;
+}

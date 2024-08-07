@@ -1,0 +1,28 @@
+#tabservice{
+    height: 300px;
+    width: 700px;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+    color: rgb(232, 232, 244);
+    font-size: 15px;
+}
+#tabservice th{
+    height: 40px;
+    width: 350px;
+    border-radius: 5%;
+    text-transform: uppercase;
+    border: solid 2px rgb(6, 61, 88);
+    background: linear-gradient(45deg, hsl(262, 41%, 53%),hsl(237, 54%, 34%), hsl(215, 68%, 56%));
+}
+
+#tabservice td{
+    height: 40px;
+    width: 350px;
+    border: solid 2px rgb(6, 61, 88);
+    border-radius: 5%;
+    background: linear-gradient(45deg, hsl(262, 41%, 53%),hsl(237, 54%, 34%), hsl(215, 68%, 56%));
+}
+
+video {
+    margin-left: 15px;
+}

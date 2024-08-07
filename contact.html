@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+   
+    <title>Notre site de course à pied</title>
+</head>
+
+<body>
+    <div class="div" id="entete">
+        <!--todo1-->
+        <img id="titre" src="img/imagelogo.png"/>
+        <h1>CAP</h1>
+        <h3>N°1 en cours à pied</h3>
+    </div>
+        <div class="div" id="menu">
+            <!--todo2-->
+            <ul>
+                <li> <a href="index.html">Accueil</a></li>
+                <li> <a href="produit.html">Produit</a></li>
+                <li> <a href="service.html">Service</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+    </div>
+    
+    <div id="bloc">
+        <a name="cap"></a>
+        <h2>Demande de plans d'entrainement en course à pied</h2>
+        <p>Demandez-nous vite notre guide gratuit ! <br>
+            Il vous sera livré dans les meilleurs délais
+        </p>
+    </div>
+    <form method="POST" name="damande" id="demande" action="mailto:danielruso27@gmail.com">
+
+        <div class="from">
+            <label name="civilite" for="civilite" name="civilite">Civilité</label>
+                    <select id="civilite">
+                        <option  value="1">Monsieur</option>
+                        <option  value="2">Madame</option>
+                    </select>
+        </div>
+        <div class="from">
+            <label for="nom" name="nom">Nom</label>
+            <input type="text" id="nom">
+        </div>
+        <div class="from">
+            <label class="prenom" for="prenom" name="prenom">Prénom</label>
+            <input type="text" id="prenom">
+        </div>
+        <div class="from">
+            <label class="adresse" for="adresse" name="adresse">Adresse</label>
+            <textarea class="area" id="adresse"></textarea>
+        </div>
+        <div class="from">
+            <label name = "ville" class="ville" for="ville" name="ville">Ville</label>
+            <input id="ville">
+            <label id="code" for="codepostal" name="codepostal">Code postal:</label>
+            <input id="codepostal">
+        </div>
+        <div class="from">
+            <input name = "checkbox" type="checkbox" id="checkbox" value="newsletter">
+            <label class="check" for="checkbox" name="newsletter">Je souhaite recevoir la newsletter</label>
+            <label for="email" name="email">  Courriel:</label>
+            <input id="email" name="email">
+        </div>
+        <div id="send">
+           <!-- <button name="action" type="button" onclick="verifierFormulaire()">Envoyer</button> -->
+        <input name="action" type="button" onclick="verifierFormulaire()" value="Envoyer">
+        </div>
+    </form>
+    <div id="text">
+        <p>Ce site a fait l'objet d'une déclaration auprès de la Commision Nationale Informatique et Libertés (CNIL),
+            Conformément aux dispositions de la loi Informatiques et libertés du 06/01/1978, vouz disposez d'un droit de
+            modification, de rectification et d'opposition/suppression des données vous concernant, ce par simple demande
+            à : info@cap.com
+            N'hésitez pas à prendre contact avec l'équipe CAP. Nous répondrons à toutes vos questions sur si besoin.
+        </p>
+    </div>
+    
+    <div class="div" id="pied">
+        <!--todo4-->
+        <hr>
+        <a href="#cap">Remonter</a>
+        <p> © CAP- <a href="mentions.html">Mentions légales</a></p>
+        <p>Faire de sport est bon et recommandé pour la santé, pensez à vous entraîner.</p>
+    </div>
+
+<script src="../../TP2/exos-js/sequence3/formulaire.js"></script>
+</body>
+
+</html>

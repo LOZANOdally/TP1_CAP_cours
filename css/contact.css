@@ -1,0 +1,26 @@
+label {
+    display: inline-block;
+    margin: 15px 10px 10px 40px;
+    width: 80px;
+}
+
+
+.from{
+    color: rgb(6, 12, 67);
+}
+#checkbox{
+    margin-left: 40px;
+}
+.check{
+    margin: 0px;
+    width: 250px;
+}
+#send input{
+    display: inline-block;
+    margin: 0px 0px 0px 40px;
+    color: rgb(6, 12, 67);
+    width: 100px;
+}
+#code{
+    width: 100px;
+}

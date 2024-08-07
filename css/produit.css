@@ -1,0 +1,75 @@
+#bloc h2{
+    text-align: center;
+    padding: 10px;
+}
+.tabone {
+    border: solid 2px rgb(157, 173, 240);
+    color: rgb(237, 219, 239);
+    margin: 20px 0px 0px 80px;
+    background-color: rgb(32, 29, 29);
+    font-size: 15px;
+    height: 400px;
+    width: 90%;
+}
+.tabone td{
+    border: solid 2px rgb(157, 173, 240);
+    padding: 10px;
+}
+.tabone tr{
+    padding: 15px;
+}
+
+.tabtow {
+    border: solid 2px rgb(157, 173, 240);
+    color: rgb(237, 219, 239);
+    margin: 20px 0px 0px 80px;
+    background-color: rgb(32, 29, 29);
+    font-size: 15px;
+    height: 400px;
+    width: 90%;
+}
+.tabtow td{
+    border: solid 2px rgb(157, 173, 240);
+    padding: 10px;
+}
+.tabtow tr{
+    padding: 15px;
+}
+
+.tabthree {
+    border: solid 2px rgb(157, 173, 240);
+    color: rgb(237, 219, 239);
+    margin: 20px 0px 0px 80px;
+    background-color: rgb(32, 29, 29);
+    font-size: 15px;
+    height: 400px;
+    width: 90%;
+}
+.tabthree td{
+    border: solid 2px rgb(157, 173, 240);
+    padding: 10px;
+}
+.tabthree tr{
+    padding: 15px;
+}
+.tabfour{
+    border: solid 2px rgb(157, 173, 240);
+    color: rgb(237, 219, 239);
+    margin: 20px 0px 0px 80px;
+    background-color: rgb(32, 29, 29);
+    font-size: 15px;
+    height: 400px;
+    width: 90%;
+}
+.tabfour td{
+    border: solid 2px rgb(157, 173, 240);
+    padding: 10px;
+}
+.tabfour tr{
+    padding: 15px;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+
